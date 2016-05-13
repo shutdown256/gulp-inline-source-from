@@ -1,5 +1,5 @@
 {
-  "name": "inline-source",
+  "name": "gulp-inline-source-from",
   "description": "Inline all flagged js, css, image source files",
   "version": "4.2.5",
   "author": "popeindustries <alex@pope-industries.com>",
@@ -7,18 +7,24 @@
     "inline",
     "html",
     "js",
-    "css"
+    "css",
+    "from",
+    "gulp"
   ],
   "dependencies": {
     "csso": "2.0.0",
     "htmlparser2": "3.9.0",
     "lodash": "4.11.1",
     "svgo": "0.6.6",
-    "uglify-js": "2.6.2"
+    "uglify-js": "2.6.2",
+    "gulp-util": "~3.0.6",
+    "through2": "~2.0.0"
   },
   "devDependencies": {
     "expect.js": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "faucet": "0.0.1",
+    "tape": "^4.0.1"
   },
   "main": "index.js",
   "scripts": {
@@ -28,7 +34,7 @@
   "engines": {
     "node": ">=0.10"
   },
-  "repository": "git://github.com/popeindustries/inline-source.git",
+  "repository": "git://github.com/shutdown256/gulp-inline-source-from.git",
   "readmeFilename": "README.md",
   "license": "MIT"
 }
