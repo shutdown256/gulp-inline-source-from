@@ -1,15 +1,18 @@
 {
   "name": "gulp-inline-source-from",
-  "description": "Inline all flagged js, css, image source files",
-  "version": "4.2.5",
-  "author": "popeindustries <alex@pope-industries.com>",
+  "description": "Inline all flagged js, css source files using 'from' attribute",
+  "version": "5.0.8",
+  "author": "Vladislav Richter <vladislavrichter@seznam.cz>",
   "keywords": [
     "inline",
     "html",
     "js",
     "css",
     "from",
-    "gulp"
+    "gulp",
+    "polymer",
+    "styles",
+    "overwrite"
   ],
   "dependencies": {
     "csso": "2.0.0",
